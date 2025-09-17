@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width:900px;
+}
+header{
+    background-color: blue;
+    padding: 15px 0px;
+}
+header h1,header p{
+    color: white;
+    margin-bottom: 9px;
+    text-align: center;
+}
+button{
+    width:130px;
+    background-color: blueviolet;
+height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.ans1,.ans2,.ans3{
+    display: none;
+}
